@@ -11,6 +11,10 @@ public class CFilPrincipal {
 
         Cfil = vObjecteFil = new Cfil ("#1");
 
+        // Exercici 1 --> Temporització procès fill, la seva execució finalitza abans de la del pare, s'utilitza mtijançant el mètode de la classe cFil
+        vObjecteFil = sTemporitzacio(50);
+
+
         vFil = start();
 
         System.out.println("Iniciant execució procès principal");
